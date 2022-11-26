@@ -1,0 +1,71 @@
+{
+    "image_alpha_beta_enable": false,
+    "image_objectname": "",
+    "image_alpha_beta": {
+        "image_alpha": 1,
+        "image_beta": 0
+    },
+    "image_clur_enable": false,
+    "image_clur": {
+        "image_clur_size": 3
+    },
+    "image_thresold_inv_enable": false,
+    "image_thresold_inv": {
+        "image_thresold_inv_size": 200
+    },
+    "image_necess": {
+        "image_split_type": 0,
+        "image_thresold": 100,
+        "image_re_color": false
+    },
+    "image_roi_enable": false,
+    "image_roi_rect": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "image_erdi_enable": false,
+    "image_erdi": {
+        "image_erdi_size": 3
+    },
+    "object_necess": {
+        "object_min_size": 10000,
+        "object_max_size": 999999999,
+        "object_contours_type": 1,
+        "object_contours_size": 4
+    },
+    "image_other_enable": false,
+    "image_other": {
+        "image_legth_enable": false,
+        "legth": {
+            "min_legth_size": 0,
+            "max_legth_size": 4000
+        },
+        "image_width_enable": false,
+        "width": {
+            "min_width_size": 0,
+            "max_width_size": 4000
+        },
+        "image_cir_enable": false,
+        "cir": {
+            "min_cir_size": 0.0,
+            "max_cir_size": 100.0
+        },
+        "image_pyl_enable": false,
+        "pyl": {
+            "min_pyl_size": 0.0,
+            "max_pyl_size": 100.0
+        },
+        "image_rectsize_enable": false,
+        "rectsize": {
+            "min_rectsize_size": 0.0,
+            "max_rectsize_size": 100.0
+        },
+        "image_hullnum_enable": false,
+        "hullnum": {
+            "min_hullnum_size": 0,
+            "max_hullnum_size": 1000
+        }
+    }
+}
